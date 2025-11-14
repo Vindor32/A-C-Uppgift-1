@@ -1,0 +1,84 @@
+.body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+.header {
+    color: yellow;
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 100px;
+    background-image: url(header.png);
+}
+
+.footer {
+    background-color: beige;
+    background-image: url(footer.png);
+    width: 1400px;
+    height: 100px;
+}
+.menu {
+    background-color: blanchedalmond;
+    height: 60px;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.about {
+    background-color:lightpink;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.formulär-container {
+    float: left;
+    width: 500px;
+    height: 900px;
+
+}
+.formulär {
+    border: 5px solid blue;
+    margin-left: 100px;
+    width: 250px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+}
+.formulärtitel {
+    margin-left: 100px;
+}
+
+.delning {
+    height: 900px
+}
+
+/* Texten till höger */
+
+.description {
+    padding: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: darkblue;
+    background-color: cornflowerblue;
+    float: right;
+    width: 900px;
+    height: 900px;
+}
+.stor {
+    font-size: 25px;
+}
+.liten {
+    font-size: 15px;
+}
+.sjö {
+    width: 500px;
+    height: 350px;
+    border: solid white 5px;
+}
+
+

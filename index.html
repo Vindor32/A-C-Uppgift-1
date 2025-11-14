@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">Boka Din Sommarstuga!</div>
+        <div class="menu">Hem Om oss Kontakt</div>
+        <div class="about">Välkommen till vår mysiga sommarstuga vid sjön! Här kan du njuta av naturen, bada, fiska eller bara koppla av på altanen. Stugan har två sovrum, bastu och vacker sjöutsikt.</div>
+        <div class="delning">
+            <div class="formulär-container">
+                <h1 class="formulärtitel">Fyll i formulär!</h1>
+                <div class="formulär">
+                <form>
+                    <label>Namn:</label><br>
+                    <input type="text" name="namn"placeholder="skriv ditt namn!" size="35">
+
+                    <br><br><label>Ange din e-post: <span>*</span></label><br>
+                    <input type="text" pattern=".+@.+\..+" name="e-post" placeholder="skriv din e-post!" size="35" title="Ange en giltig e-post adress!">
+                    
+                    <br><br><label>Telefon:</label><br>
+                    <input type="text" name="telefon" placeholder="skriv dit telefonnummer!" size="35">
+                
+                    <br><br><label>Ankomstdatum:</label><br>
+                    <input type="date" id="ankomst" name="ankomst">
+
+                    <br><br><label>Avresedatum:</label><br>
+                    <input type="date" id="avrese" name="avrese">
+
+                    <br><br><label>Antal personer:</label><br>
+                    <input type="number" id="antal" name="antal">
+
+                    <br><br><label for="typ">Typ av stuga: </label> <br>
+                    <input type="radio" name="typ" value="liten"> Liten <br>
+                    <input type="radio" name="typ" value="stor"> Stor <br>
+                    <input type="radio" name="typ" value="lyx"> Lyx <br>
+
+                    <br><br><label for="Önskemål"><Em>Extra önskemål</Em> </label><br>
+                    <textarea name="önskemål" cols="25" rows="10" placeholder="T.ex. barnstol, husdjur, nära vattnet..."></textarea>
+                </form>
+                </div>
+            </div>
+
+            <div class="description">
+                <h1>Välkommen i Skåne</h1>
+
+                <p class="stor">Redo för det avskilda och tysta? Då är Djurholmen strövområde på Hallandsåsens södra branter är platsen för dig. Här finns tre markerade vandringsleder som går över en väldig mosse, in i en bäckravin med små vattenfall och genom omväxlande bok- och barrskog. Djurholmamossen är en av få bevarade högmossar i Skåne, där du ofta kan vara helt ensam för att njuta av det öppna landskapet. Ute på myren växer klockljung och i de öppna kärren blommar myrlilja. Här växer även hjortron och tranbär. Naturreservatet Djurholmamossen skyddar öppna mossor, laggkärr, barr- och lövsumpskogar.</p>
+       
+                <img src="sjö.jpg" class="sjö">
+
+                <p class="liten">Redo för det avskilda och tysta? Då är Djurholmen strövområde på Hallandsåsens södra branter är platsen för dig. Här finns tre markerade vandringsleder som går över en väldig mosse, in i en bäckravin med små vattenfall och genom omväxlande bok- och barrskog. Djurholmamossen är en av få bevarade högmossar i Skåne, där du ofta kan vara helt ensam för att njuta av det öppna landskapet. Ute på myren växer klockljung och i de öppna kärren blommar myrlilja. Här växer även hjortron och tranbär. Naturreservatet Djurholmamossen skyddar öppna mossor, laggkärr, barr- och lövsumpskogar. Djurholmamossen skyddar öppna mossor, laggkärr, barr- och lövsumpskogar.</p>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+</body>
+</html>
+
